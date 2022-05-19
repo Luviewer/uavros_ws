@@ -1,0 +1,154 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/model.sdf",
+			"args": [],
+			"dependsOn": [
+				"erb arduwoodpecker_claw",
+				"erb arduwoodpecker_body",
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_platform",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_platform/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_platform/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_claw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw/model.sdf",
+			"args": [],
+			"dependsOn": [
+				"erb arduwoodpecker_claw_base",
+				"erb arduwoodpecker_claw_flange",
+				"erb arduwoodpecker_claw_pole",
+				"erb arduwoodpecker_claw_hand",
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_claw_hand",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_hand/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_hand/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_claw_flange",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_flange/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_flange/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_claw_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_base/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_claw_pole",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_pole/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_claw_pole/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_batt",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_batt/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_batt/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_tiltrotor",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_tiltrotor/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_tiltrotor/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_prop_cw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_prop_cw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_prop_cw/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_prop_ccw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_prop_ccw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_prop_ccw/model.sdf",
+			"args": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb arduwoodpecker_body",
+			"command": "",
+			"args": [],
+			"dependsOn": [
+				"erb arduwoodpecker_platform",
+				"erb arduwoodpecker_batt",
+				"erb arduwoodpecker_tiltrotor",
+				"erb arduwoodpecker_prop_ccw",
+				"erb arduwoodpecker_prop_cw",
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+	]
+}

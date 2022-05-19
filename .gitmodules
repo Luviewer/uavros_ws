@@ -1,0 +1,15 @@
+[submodule "src/rotors_simulator"]
+	path = src/rotors_simulator
+	url = https://github.com/Luviewer/rotors_simulator.git
+[submodule "src/mav_comm"]
+	path = src/mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "src/glog_catkin"]
+	path = src/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "src/catkin_simple"]
+	path = src/catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "src/uav_simulator"]
+	path = src/uav_simulator
+	url = https://github.com/Luviewer/uav_simulator.git
