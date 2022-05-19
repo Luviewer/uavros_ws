@@ -38,4 +38,11 @@
 
     >`source ~/.bashrc`
 
-4. 
+4. 安装ardupilot            
+    参考: https://ardupilot.org/dev/index.html      
+    1. 在任意位置下载源码:        
+    `git clone https://github.com/Luviewer/ardupilot.git --recursive`     
+    2. 安装ardupilot环境        
+    `cd ardupilot`      
+    `Tools/environment_install/install-prereqs-ubuntu.sh -y`        
+    `. ~/.profile`
