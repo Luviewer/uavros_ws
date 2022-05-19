@@ -1,12 +1,14 @@
 # 配置步骤      
 
 **这里推荐使用Ubuntu20.04** 
-
-1. 安装`ROS`      
+   
+1. 下载源码     
+   `git clone https://github.com/Luviewer/uavros_ws.git --recursive`
+2. 安装`ROS`      
    参考：http://wiki.ros.org/     
    [这里请安装ros-noetic]  
 
-2. 安装`uavros_ws`环境    
+3. 安装`uavros_ws`环境    
     步骤如下:  
     >`sudo apt-get install ros-noetic-desktop-full ros-noetic-joy ros-noetic-octomap-ros python3-wstool python3-catkin-tools protobuf-compiler`      
 
@@ -36,4 +38,4 @@
 
     >`source ~/.bashrc`
 
-3. 
+4. 
