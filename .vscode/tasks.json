@@ -18,6 +18,18 @@
 		},
 		{
 			"type": "shell",
+			"label": "erb arduwoodpecker_tree",
+			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_tree/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_tree/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
 			"label": "erb arduwoodpecker_platform",
 			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker_platform/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker_platform/model.sdf",
 			"args": [],
