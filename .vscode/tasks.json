@@ -162,5 +162,113 @@
 				"isDefault": true
 			}
 		},
+		{
+			"type": "shell",
+			"label": "erb tsd_quad_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_quad_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_quad_base/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_quad",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_quad/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_quad/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_t4_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_t4_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_t4_base/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_t4",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_t4/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_t4/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_t4_prop",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_t4_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_t4_prop/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_t4_link",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_t4_link/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_t4_link/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_t4_saw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_t4_saw/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_t4_saw/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_t4_bar",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsd_t4_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsd_t4_bar/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsd_quad_world",
+			"command": "erb src/uav_simulator/uav_gazebo/worlds/tsd_quad.rsdf >  src/uav_simulator/uav_gazebo/worlds/tsd_quad.world",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
 	]
 }
