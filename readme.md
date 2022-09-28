@@ -50,5 +50,5 @@
 5. 安装VSCODE
    
 6. 运行仿真
-   `roslaunch uav_gazebo spawn.launch`
+   `roslaunch uav_gazebo spawn.launch`  
    `~/xx/ardupilot/ArduCopter/../Tools/autotest/sim_vehicle.py -f gazebo-iris --console` xx为`ardupilot`路径
