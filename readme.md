@@ -46,3 +46,9 @@
     `cd ardupilot`      
     `Tools/environment_install/install-prereqs-ubuntu.sh -y`        
     `. ~/.profile`
+
+5. 安装VSCODE
+   
+6. 运行仿真
+   `roslaunch uav_gazebo spawn.launch`
+   `~/xx/ardupilot/ArduCopter/../Tools/autotest/sim_vehicle.py -f gazebo-iris --console` xx为`ardupilot`路径
