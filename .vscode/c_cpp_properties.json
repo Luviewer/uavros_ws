@@ -6,16 +6,18 @@
         "limitSymbolsToIncludedHeaders": true
       },
       "includePath": [
-        "/home/llw/uavros_ws/devel/include/**",
+        "~/uavros_ws/devel/include/**",
         "/opt/ros/melodic/include/**",
-        "/home/llw/uavros_ws/src/mav_comm/mav_msgs/include/**",
-        "/home/llw/uavros_ws/src/mav_comm/mav_planning_msgs/include/**",
-        "/home/llw/uavros_ws/src/rotors_simulator/rotors_control/include/**",
-        "/home/llw/uavros_ws/src/rotors_simulator/rotors_gazebo_plugins/include/**",
-        "/home/llw/uavros_ws/src/rotors_simulator/rotors_hil_interface/include/**",
-        "/home/llw/uavros_ws/src/rotors_simulator/rotors_joy_interface/include/**",
-        "/home/llw/uavros_ws/src/uav_simulator/uav_gazebo_plugin/include/**",
-        "/usr/include/**"
+        "~/uavros_ws/src/mav_comm/mav_msgs/include/**",
+        "~/uavros_ws/src/mav_comm/mav_planning_msgs/include/**",
+        "~/uavros_ws/src/rotors_simulator/rotors_control/include/**",
+        "~/uavros_ws/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "~/uavros_ws/src/rotors_simulator/rotors_hil_interface/include/**",
+        "~/uavros_ws/src/rotors_simulator/rotors_joy_interface/include/**",
+        "~/uavros_ws/src/uav_simulator/uav_gazebo_plugin/include/**",
+        "/usr/include/**",
+        "/opt/ros/noetic/**",
+        "~/uavros_ws/src/uav_simulator/uav_control/include/*"
       ],
       "name": "ROS"
     }

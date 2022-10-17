@@ -8,6 +8,8 @@
     // "xmlTools.xmlFormatterImplementation": "v2",
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: WebKit, IndentWidth: 4, ColumnLimit: 120}",
     "files.associations": {
+        "*.dat": "cmake",
+        "*.world": "xml",
         "*.rsdf": "erb",
         "*.sdf": "xml",
         "functional": "cpp",
@@ -78,7 +80,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "*.ipp": "cpp",
-        "any": "cpp"
+        "any": "cpp",
+        "geometry": "cpp"
     },
     "python.analysis.extraPaths": [
         "/home/llw/catkin_ws/devel/lib/python2.7/dist-packages",
