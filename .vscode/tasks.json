@@ -3,12 +3,12 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker/model.sdf",
+			"label": "erb usl_iwp",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp/model.sdf",
 			"args": [],
 			"dependsOn": [
-				"erb arduwoodpecker_claw",
-				"erb arduwoodpecker_body",
+				"erb usl_iwp_claw",
+				"erb usl_iwp_body",
 			],
 			"problemMatcher": [],
 			"group": {
@@ -18,12 +18,12 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpeckerDownload",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpeckerDownload/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpeckerDownload/model.sdf",
+			"label": "erb usl_iwp_down",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_down/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_down/model.sdf",
 			"args": [],
 			"dependsOn": [
-				"erb arduwoodpecker_claw",
-				"erb arduwoodpecker_body",
+				"erb usl_iwp_claw",
+				"erb usl_iwp_body",
 			],
 			"problemMatcher": [],
 			"group": {
@@ -33,8 +33,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_tree",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_tree/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_tree/model.sdf",
+			"label": "erb usl_iwp_tree",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_tree/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_tree/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -45,8 +45,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_platform",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_platform/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_platform/model.sdf",
+			"label": "erb usl_iwp_platform",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_platform/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_platform/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -56,14 +56,14 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_claw",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw/model.sdf",
+			"label": "erb usl_iwp_claw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw/model.sdf",
 			"args": [],
 			"dependsOn": [
-				"erb arduwoodpecker_claw_base",
-				"erb arduwoodpecker_claw_flange",
-				"erb arduwoodpecker_claw_pole",
-				"erb arduwoodpecker_claw_hand",
+				"erb usl_iwp_claw_base",
+				"erb usl_iwp_claw_flange",
+				"erb usl_iwp_claw_pole",
+				"erb usl_iwp_claw_hand",
 			],
 			"problemMatcher": [],
 			"group": {
@@ -73,8 +73,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_claw_hand",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_hand/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_hand/model.sdf",
+			"label": "erb usl_iwp_claw_hand",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_hand/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_hand/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -84,8 +84,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_claw_flange",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_flange/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_flange/model.sdf",
+			"label": "erb usl_iwp_claw_flange",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_flange/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_flange/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -95,8 +95,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_claw_base",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_base/model.sdf",
+			"label": "erb usl_iwp_claw_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_base/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -106,8 +106,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_claw_pole",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_pole/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_claw_pole/model.sdf",
+			"label": "erb usl_iwp_claw_pole",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_pole/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_claw_pole/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -117,8 +117,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_batt",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_batt/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_batt/model.sdf",
+			"label": "erb usl_iwp_batt",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_batt/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_batt/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -128,8 +128,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_tiltrotor",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_tiltrotor/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_tiltrotor/model.sdf",
+			"label": "erb usl_iwp_tiltrotor",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_tiltrotor/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_tiltrotor/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -139,8 +139,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_prop_cw",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_prop_cw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_prop_cw/model.sdf",
+			"label": "erb usl_iwp_prop_cw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_prop_cw/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_prop_cw/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -150,8 +150,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_prop_ccw",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_prop_ccw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/arduwoodpecker_prop_ccw/model.sdf",
+			"label": "erb usl_iwp_prop_ccw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_prop_ccw/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/usl_iwp_prop_ccw/model.sdf",
 			"args": [],
 			"problemMatcher": [],
 			"group": {
@@ -161,15 +161,15 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb arduwoodpecker_body",
+			"label": "erb usl_iwp_body",
 			"command": "",
 			"args": [],
 			"dependsOn": [
-				"erb arduwoodpecker_platform",
-				"erb arduwoodpecker_batt",
-				"erb arduwoodpecker_tiltrotor",
-				"erb arduwoodpecker_prop_ccw",
-				"erb arduwoodpecker_prop_cw",
+				"erb usl_iwp_platform",
+				"erb usl_iwp_batt",
+				"erb usl_iwp_tiltrotor",
+				"erb usl_iwp_prop_ccw",
+				"erb usl_iwp_prop_cw",
 			],
 			"problemMatcher": [],
 			"group": {
@@ -180,7 +180,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_quad_base",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_quad_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_quad_base/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad_base/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -192,7 +192,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_quad",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_quad/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_quad/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -204,7 +204,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_t4_base",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_base/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_base/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -216,7 +216,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_t4",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -228,7 +228,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_t4_prop",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_prop/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_prop/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -240,7 +240,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_t4_link",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_link/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_link/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_link/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_link/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -252,7 +252,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_t4_saw",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_saw/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_saw/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_saw/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_saw/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -264,7 +264,7 @@
 		{
 			"type": "shell",
 			"label": "erb tsd_t4_bar",
-			"command": "erb src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/arduwoodpecker/models/tsd_t4_bar/model.sdf",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_bar/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
