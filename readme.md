@@ -52,3 +52,6 @@
 6. 运行仿真   
    `roslaunch uav_gazebo spawn.launch`  
    `~/xx/ardupilot/ArduCopter/../Tools/autotest/sim_vehicle.py -f gazebo-iris --console` xx为`ardupilot`路径
+
+#
+`uav_simulator` 是核心仓库，更深入学习可参考`https://github.com/Luviewer/uav_simulator.git`
