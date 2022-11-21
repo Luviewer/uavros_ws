@@ -81,7 +81,10 @@
         "typeinfo": "cpp",
         "*.ipp": "cpp",
         "any": "cpp",
-        "geometry": "cpp"
+        "geometry": "cpp",
+        "shared_mutex": "cpp",
+        "variant": "cpp",
+        "bit": "cpp"
     },
     "python.analysis.extraPaths": [
         "/home/llw/catkin_ws/devel/lib/python2.7/dist-packages",

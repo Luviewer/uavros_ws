@@ -179,8 +179,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_quad_base",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad_base/model.sdf",
+			"label": "erb tsduav_quad_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_quad/models/tsduav_quad_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_quad/models/tsduav_quad_base/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -191,8 +191,20 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_quad",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_quad/model.sdf",
+			"label": "erb tsduav_quad",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_quad/models/tsduav_quad/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_quad/models/tsduav_quad/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsduav_quad_prop",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_quad/models/tsduav_quad_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_quad/models/tsduav_quad_prop/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -265,18 +277,6 @@
 			"type": "shell",
 			"label": "erb tsd_t4_bar",
 			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_bar/model.sdf",
-			"args": [],
-			"dependsOn": [],
-			"problemMatcher": [],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		},
-		{
-			"type": "shell",
-			"label": "erb tsd_quad_world",
-			"command": "erb src/uav_simulator/uav_gazebo/worlds/tsd_quad.rsdf >  src/uav_simulator/uav_gazebo/worlds/tsd_quad.world",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
