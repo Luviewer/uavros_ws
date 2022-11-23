@@ -13,3 +13,4 @@
 [submodule "src/uav_simulator"]
 	path = src/uav_simulator
 	url = https://github.com/Luviewer/uav_simulator.git
+	branch = staging/uwb
