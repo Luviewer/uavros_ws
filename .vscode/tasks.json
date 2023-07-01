@@ -321,5 +321,44 @@
 				"isDefault": true
 			}
 		},
+		// usl_balancebot_base
+		{
+			"type": "shell",
+			"label": "erb usl_balancebot_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balancebot/models/usl_balancebot_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balancebot/models/usl_balancebot_base/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balancebot_wheel
+		{
+			"type": "shell",
+			"label": "erb usl_balancebot_wheel",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balancebot/models/usl_balancebot_wheel/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balancebot/models/usl_balancebot_wheel/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balancebot
+		{
+			"type": "shell",
+			"label": "erb usl_balancebot",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balancebot/models/usl_balancebot/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balancebot/models/usl_balancebot/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
 	]
 }
