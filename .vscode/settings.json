@@ -8,10 +8,16 @@
     // "xmlTools.xmlFormatterImplementation": "v2",
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: WebKit, IndentWidth: 4, ColumnLimit: 120}",
     "files.associations": {
+        "*.px4board": "makefile",
+        "*.toml": "makefile",
+        "Kconfig": "makefile",
+        "*.map": "arm",
         "*.dat": "cmake",
+        ".config": "cmake",
+        "*.inc": "cmake",
+        "*.sdf": "xml",
         "*.world": "xml",
         "*.rsdf": "erb",
-        "*.sdf": "xml",
         "functional": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
@@ -84,7 +90,11 @@
         "geometry": "cpp",
         "shared_mutex": "cpp",
         "variant": "cpp",
-        "bit": "cpp"
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "ranges": "cpp",
+        "stop_token": "cpp"
     },
     "python.analysis.extraPaths": [
         "/home/llw/catkin_ws/devel/lib/python2.7/dist-packages",
