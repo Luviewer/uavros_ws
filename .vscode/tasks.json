@@ -360,5 +360,57 @@
 				"isDefault": true
 			}
 		},
+		// usl_balanceTailsitter_base
+		{
+			"type": "shell",
+			"label": "erb usl_balanceTailsitter_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_base/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balanceTailsitter_tilt
+		{
+			"type": "shell",
+			"label": "erb usl_balanceTailsitter_tilt",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_tilt/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_tilt/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balanceTailsitter
+		{
+			"type": "shell",
+			"label": "erb usl_balanceTailsitter",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balanceTailsitter_prop
+		{
+			"type": "shell",
+			"label": "erb usl_balanceTailsitter_prop",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_prop/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
 	]
 }
