@@ -6,7 +6,7 @@
 2. 编译运行arducopter     
    `cd ArduCopter`   
    `roslaunch uav_gazebo spawn.launch`         
-   `../Tools/autotest/sim_vehicle.py -f gazebo-iris --console --map`        
+   `sim_vehicle.py -v ArduCopter -f gazebo-iris --console --map`        
 
 
 ## 编译四旋翼
