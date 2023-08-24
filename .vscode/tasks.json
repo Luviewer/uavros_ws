@@ -215,8 +215,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_t4_base",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_base/model.sdf",
+			"label": "erb tsduav_t4_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_base/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -227,8 +227,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_t4",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4/model.sdf",
+			"label": "erb tsduav_t4",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -239,8 +239,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_t4_prop",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_prop/model.sdf",
+			"label": "erb tsduav_t4_prop",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_prop/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -251,8 +251,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_t4_link",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_link/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_link/model.sdf",
+			"label": "erb tsduav_t4_link",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_link/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_link/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -263,8 +263,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_t4_saw",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_saw/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_saw/model.sdf",
+			"label": "erb tsduav_t4_saw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_saw/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_saw/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -275,8 +275,8 @@
 		},
 		{
 			"type": "shell",
-			"label": "erb tsd_t4_bar",
-			"command": "erb src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_iwp/models/tsd_t4_bar/model.sdf",
+			"label": "erb tsduav_t4_bar",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4/models/tsduav_t4_bar/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -313,6 +313,19 @@
 			"type": "shell",
 			"label": "erb tsduav_c1_prop",
 			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_c1/models/tsduav_c1_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_c1/models/tsduav_c1_prop/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// box
+		{
+			"type": "shell",
+			"label": "erb box",
+			"command": "erb src/uav_simulator/uav_gazebo/models/common/models/box/model.rsdf >  src/uav_simulator/uav_gazebo/models/common/models/box/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
@@ -404,6 +417,32 @@
 			"type": "shell",
 			"label": "erb usl_balanceTailsitter_prop",
 			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_prop/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balanceTailsitter_leg
+		{
+			"type": "shell",
+			"label": "erb usl_balanceTailsitter_leg",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_leg/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_leg/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		// usl_balanceTailsitter_wheel
+		{
+			"type": "shell",
+			"label": "erb usl_balanceTailsitter_wheel",
+			"command": "erb src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_wheel/model.rsdf >  src/uav_simulator/uav_gazebo/models/usl_balanceTailsitter/models/usl_balanceTailsitter_wheel/model.sdf",
 			"args": [],
 			"dependsOn": [],
 			"problemMatcher": [],
