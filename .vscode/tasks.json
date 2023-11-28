@@ -287,6 +287,78 @@
 		},
 		{
 			"type": "shell",
+			"label": "erb tsduav_t4_old_base",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_base/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_base/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsduav_t4_old",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsduav_t4_old_prop",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_prop/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_prop/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsduav_t4_old_link",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_link/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_link/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsduav_t4_old_saw",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_saw/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_saw/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "erb tsduav_t4_old_bar",
+			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_bar/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_t4_old/models/tsduav_t4_old_bar/model.sdf",
+			"args": [],
+			"dependsOn": [],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
 			"label": "erb tsduav_c1",
 			"command": "erb src/uav_simulator/uav_gazebo/models/tsduav_c1/models/tsduav_c1/model.rsdf >  src/uav_simulator/uav_gazebo/models/tsduav_c1/models/tsduav_c1/model.sdf",
 			"args": [],
