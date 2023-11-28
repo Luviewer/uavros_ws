@@ -12,4 +12,4 @@
 	url = https://github.com/catkin/catkin_simple.git
 [submodule "src/uav_simulator"]
 	path = src/uav_simulator
-	url = https://github.com/Luviewer/uav_simulator.git
+	url = ../uav_simulator.git
