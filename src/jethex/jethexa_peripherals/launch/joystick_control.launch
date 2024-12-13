@@ -1,0 +1,11 @@
+<launch>
+  <node name="joystick" pkg="joy" type="joy_node" output="screen">
+      <param name="dev" type="string" value="/dev/input/js0" />
+      <param name="autorepeat_rate" type="double" value="10.0" />
+      <param name="deadzone" type="double" value="0" />
+      <param name="coalesce_interval" type="double" value="0.01" />
+  </node>
+
+  <node name="joystick_control" pkg="jethexa_peripherals" type="joystick_control.py" output="screen">
+  </node>
+</launch>

@@ -1,0 +1,32 @@
+<launch>
+    <!-- these are the arguments you can pass this launch file, for example paused:=true -->
+    <arg name="gui" default="true"/>
+    <arg name="debug" default="false"/>
+    <arg name="paused" default="false"/>
+    <arg name="headless" default="false"/>
+    <arg name="use_sim_time" default="true"/>
+
+    <!-- 复用 empty_world.launch 的逻辑来启动为我们自己的 world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find jethexa_gazebo)/worlds/jethexa.world"/>
+        <arg name="gui" value="$(arg gui)" />
+        <arg name="debug" value="$(arg debug)" />
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="headless" value="$(arg headless)"/>
+        <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    </include>
+
+    <!-- 从参数服务器读取URDF模型 -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find jethexa_description)/urdf/jethexa.urdf.xacro'" />
+
+    <!-- 运行一个 python 脚本来通过 service call 调用 gazebo_ros 以生成一个 URDF机器人 -->
+    <node name="urdf_spawner" 
+          pkg="gazebo_ros" 
+          type="spawn_model" 
+          respawn="false" 
+          output="screen" 
+          args="-urdf -model jethexa -param robot_description"/>
+
+    <!-- ros_control launch file -->
+    <include file="$(find jethexa_gazebo)/launch/jethexa_controller.launch"> </include>
+</launch>
